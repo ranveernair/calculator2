@@ -1,0 +1,86 @@
+@font-face {
+    font-family:DS-Digital ;
+    src:url("/Fonts/DS-DIGI.TTF");
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.991);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.square{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 12px;
+    
+    
+}
+
+.display{
+    height: 100px;
+    
+   
+    border: 5px solid;
+    border-radius: 10px;
+    
+
+}
+
+.button-containor{
+    height: 364px;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    
+    
+   
+}
+
+input[type="text"]{
+    height: 90px;
+    width: 100%;
+    border: none;
+    font-family: DS-Digital;
+    font-size: 50px;
+    padding: 10px;
+    letter-spacing: 10px;
+
+
+    
+}
+
+input[type=button] {
+height: 45px;
+width: 66px;
+margin-top: 23px;
+background-color: white;
+
+    }
+/* 
+    button:hover{
+        background-color: aquamarine;
+    } */
+    input[type=button]:hover {
+background-color: aquamarine;
+    }
